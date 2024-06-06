@@ -47,4 +47,17 @@ h1 {
 .rat {
     position: relative;
     top: 0px;
+    animation: animate 1s ease-in-out;
+}
+
+@keyframes animate {
+    0% {
+        top: 240px;
+    }
+    80% {
+        top: 0px;
+    }
+    100% {
+        top: 240px;
+    }
 }
