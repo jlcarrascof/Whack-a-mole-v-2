@@ -27,3 +27,8 @@ h1 {
     width: 800px;
     margin: 1rem auto;
 }
+
+.box {
+    margin: 0rem 1px;
+    height: 265px;
+}
