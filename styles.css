@@ -32,3 +32,10 @@ h1 {
     margin: 0rem 1px;
     height: 265px;
 }
+
+.hole {
+    margin: 0rem 7px;
+    margin-top: -88px;
+    width: 250px;
+    position: sticky;
+}
