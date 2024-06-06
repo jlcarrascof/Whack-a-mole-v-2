@@ -19,3 +19,11 @@ h1 {
     border-radius: 30px;
     padding: 0rem 0.5rem;
 }
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 800px;
+    margin: 1rem auto;
+}
