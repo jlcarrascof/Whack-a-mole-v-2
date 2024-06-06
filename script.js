@@ -31,3 +31,5 @@ const gameOver = () => {
     }
 
 }
+
+setInterval(gameOver, 50);
