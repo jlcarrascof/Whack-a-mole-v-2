@@ -43,3 +43,8 @@ h1 {
 .hole img {
     width: 250px;
 }
+
+.rat {
+    position: relative;
+    top: 0px;
+}
