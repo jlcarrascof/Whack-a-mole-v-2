@@ -92,3 +92,16 @@ button {
     background-color: yellow;
     cursor: pointer;
 }
+
+const gameInit=()=> {
+    let rdom = Math.round(Math.random() * 5);
+
+    let rat = document.getElementById(`rat${rdom}`);
+    rat.classList.add("animated");
+
+    setTimeout(() => {
+        rat.classList.remove("animated");
+    }, 1000);
+}
+
+let game = setInterval(gameInit, 2000);
