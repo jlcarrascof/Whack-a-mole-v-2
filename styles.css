@@ -8,3 +8,8 @@ body {
     background-color: yellow;
     text-align: center;
 }
+
+h1 {
+    font-size: 60px;
+    font-family: cursive;
+}
