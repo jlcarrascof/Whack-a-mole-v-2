@@ -22,3 +22,12 @@ rat.forEach((v) => {
         score.innerHTML = count;
     })
 })
+
+const gameOver = () => {
+
+    if (count > 5) {
+        gameover.style.display = "block";
+        clearInterval(game);
+    }
+
+}
